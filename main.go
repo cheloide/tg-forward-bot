@@ -16,7 +16,7 @@ const uriBase = "https://api.telegram.org/bot%s"
 const getUpdatesFormat = uriBase + "/getUpdates?offset=%d&timeout=%d&limit=1"
 const forwardMessageFormat = uriBase + "/forwardMessage"
 
-//Make persistent
+// TODO Make persistent
 var offset int64 = 0
 
 func main() {
